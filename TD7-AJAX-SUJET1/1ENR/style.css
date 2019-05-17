@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 mai 2019, 08:14:07
+    Author     : mcoeurjoly
+*/
+.pastilleGrise{
+    width: 20px;
+    height: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.pastilleVerte{
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.pastilleRouge{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+.pastilleOrange{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}

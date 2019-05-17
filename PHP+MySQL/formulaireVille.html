@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>recherche département</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <form action="gestionVille.php" method="post">
+                <label for="ville">Donnez un nom de ville</label>
+                <input type="text" name="ville" id="ville"/> <br/>
+                <input type="submit"/>
+
+            </form>
+
+            <form action="afficheNomDepartementFromNumero.php" method="post">
+                <label for="departement">Donnez un numéro de département</label>
+                <input type="text" name="departement" id="departement"/> <br/>
+                <input type="submit"/>
+
+            </form>
+
+            <form action="afficheNomDepartementFromRegion.php" method="post">
+
+                <label for="regionSelect">Choisissez une région :</label>
+
+                <select name="regionSelect" id="regionSelect">
+                    <option value="">--Choisissez votre région--</option>
+                    <option value="Bretagne">Bretagne</option>
+                    <option value="Corse">Corse</option>
+                    <option value="Ile-de-France">Ile-de-France</option>
+                    <option value="Pays de la Loire">Pays de la Loire</option>
+                    <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+                    <option value="Alsace, Champagne-Ardenne, Lorraine">Alsace, Champagne-Ardenne, Lorraine</option>
+                    <option value="Aquitaine, Limousin, Poitou-Charentes"> Aquitaine, Limousin, Poitou-Charentes</option>
+                    <option value="Auvergne, Rhône-Alpes">Auvergne, Rhône-Alpes</option>
+                    <option value="Bourgogne, France_Comté"> Bourgogne, France_Comté </option>
+                    <option value="Languedoc-Roussillon, Midi-pyrénées"> Languedoc-Roussillon, Midi-pyrénées </option>
+                    <option value="Nord-Pas-de-Calais, Picardie"> Nord-Pas-de-Calais, Picardie</option>
+                    <option value="Normandie">Normandie</option>
+                    <option value="Centre">Centre</option>
+                    <option value="DOM">DOM</option>
+
+                </select>
+                <br/>
+                <input type="submit"/>
+                
+            </form>
+        </div>
+    </body>
+</html>

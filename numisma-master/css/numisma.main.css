@@ -1,0 +1,12 @@
+*{
+	font-family: Arial;
+}
+
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+}
