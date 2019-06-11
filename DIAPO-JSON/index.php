@@ -6,7 +6,7 @@
 		<link type="text/css" rel="stylesheet" href="utilisateurs.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="utilisateurs.js"></script>
-</head>
+	</head>
 <body>
 	<!--------------------->
 		<ul id="utilisateurs">
